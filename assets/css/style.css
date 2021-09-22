@@ -9,6 +9,27 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-#logo {
-    font-family: 'Lora', serif;
+header {
+    background-color: #353841;
 }
+
+#logo {
+    color: #259191;
+    font-family: 'Lora', serif;
+    font-size: 300%;
+    line-height: 75%;
+}
+
+/* menu */
+
+#menu {
+    color: #259191;
+    line-height: 75px;
+    float: right;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+}
+
