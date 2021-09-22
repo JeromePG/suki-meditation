@@ -17,19 +17,33 @@ header {
     color: #259191;
     font-family: 'Lora', serif;
     font-size: 300%;
-    line-height: 75%;
+    line-height: 75px;
+    letter-spacing: 3px;
+    margin-left: 30px;
 }
 
 /* menu */
+.active {
+    font-weight: 700;
+}
 
 #menu {
-    color: #259191;
     line-height: 75px;
     float: right;
+    font-size: 150%;
 }
 
 #menu li {
-    float: right;
+    float: left;
     list-style-type: none;
+    padding-right: 30px;
 }
 
+#menu a {
+    color: #259191;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #259191;
+}
