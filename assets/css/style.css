@@ -47,3 +47,18 @@ header {
 #menu a:hover {
     border-bottom: 1px solid #259191;
 }
+
+/* hero section */
+
+#hero-section {
+    background-color: #1b6161;
+    height: 600px;
+}
+
+#cover {
+    float: left;
+}
+
+#hero-image {
+    float: right;
+}
