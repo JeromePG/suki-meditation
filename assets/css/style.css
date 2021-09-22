@@ -71,9 +71,20 @@ header {
 }
 
 #cover {
+    float: right;
+}
+
+#hero-container {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
     float: left;
+
 }
 
 #hero-image {
-    float: right;
+    background: url(/assets/images/wellbeing-woman-sitting-in-sunny-field.jpg) no-repeat center center;
+    background-color: rgb(255, 102, 0, .7);
+    border-radius: 50%;
+    height: 100%;
 }
