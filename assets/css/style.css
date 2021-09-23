@@ -13,6 +13,10 @@ header {
     background-color: #353841;
 }
 
+h1,h2 {
+    font-family: 'Lora', serif;
+}
+
 #logo {
     color: #e4c722;
     font-family: 'Lora', serif;
@@ -65,24 +69,53 @@ header {
 
 /* hero section */
 
+
 #hero-section {
-    background-color: #c5a827;
-    height: 600px;
+    background-color: #e4c722;
+    height: 700px;
+    position: relative;
+}
+
+#hero-section .left-column {
+    float: left;
+    padding: 40px 30px 30px 60px;
+    width: 45%;
+    height: 100%;
+}
+
+#hero-section .right-column {
+    float: right;
+    width: 28%;
+    position: absolute;
+    left: 60%;
+    top: 30%;
+
+}
+
+#hero-section .right-column h2 {
+    color: #07925f;
+    font-size: 250%;
+}
+
+#hero-section .right-column p {
+    color: #0a754e;
+    font-size: 170%;
 }
 
 #cover {
     float: right;
 }
 
-#hero-container {
-    width: 500px;
-    height: 500px;
+.circle-container {
+    width: 660px;
+    height: 660px;
+    border: 1px #ffa928 solid;
+    padding: 10px;
     border-radius: 50%;
     float: left;
-
 }
 
-#hero-image {
+.hero-image {
     background: url(/assets/images/wellbeing-woman-sitting-in-sunny-field.jpg) no-repeat center center;
     background-color: rgb(255, 102, 0, .7);
     border-radius: 50%;
