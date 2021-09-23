@@ -131,3 +131,16 @@ h1,h2 {
 #cover hr {
     border-top: 1px solid #e4c722;
 }
+
+/* options section */
+
+#options-outer {
+    height:900px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#options-image-bg {
+    background: url(/assets/images/yoga-outside.jpg) no-repeat center center;
+    height: 100%;
+}
