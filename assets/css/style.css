@@ -73,12 +73,12 @@ h1,h2 {
 #hero-section {
     height:800px;
     width: 100%;
-    overflow: hidden;
 }
 
 #hero-image-bg {
     background: url(/assets/images/yoga-outside.jpg) no-repeat center center;
     height: 100%;
+    overflow: hidden;
 }
 
 .tint {
@@ -88,7 +88,7 @@ h1,h2 {
 }
 
 #hero-section #cover {
-    background-color: rgba(53, 53, 53, 0.3);
+    /* background-color: rgba(53, 53, 53, 0.3); */
     padding: 10px 30px 20px;
     width: 44%;
     margin: 80px auto;
@@ -116,9 +116,16 @@ h1,h2 {
 
 /* options section */
 
+#options-cover {
+    background-color: rgba(53, 53, 53, 0.3);
+    padding: 10px 30px 20px;
+    width: 44%;
+    margin: 80px auto;
+    text-align: center;
+}
+
 #options-intro {
     text-align: center;
-    width:70%;
     margin: 0 auto;
 }
 
@@ -142,18 +149,20 @@ h1,h2 {
 #options-buttons a.button {
     color: #fff;
     font-size: 120%;
-    background-color: rgb(255, 255, 255, .4);
-    padding: 20px;
+    background-color: rgb(255, 255, 255, .3);
     margin-right: 30px;
-    border-radius: 50px;
+    border-radius: 100%;
     text-decoration: none;
-    line-height: 45px;
+    line-height: 75px;
+    display: inline-block;
+    width: 120px;
+    height: 80px;
     transition: 0.7s;
 }
 
 #options-buttons a.button:hover {
-    background-color: #c2980d;
-    border-radius: 7px;
+    background-color: rgb(194, 152, 13, .4);
+    border-radius: 50px;
 }
 
 
@@ -162,7 +171,7 @@ h1,h2 {
 
 #meditation-section {
     background-color: #f9ffe2;
-    height: 600px;
+    height: 700px;
     position: relative;
 }
 
@@ -184,27 +193,26 @@ h1,h2 {
 
 .meditation-image {
     background: url(/assets/images/wellbeing-woman-sitting-in-sunny-field.jpg) no-repeat center center;
-    background-color: rgb(255, 102, 0, .7);
+    background-color: rgba(255, 174, 0, 0.5);
     border-radius: 50%;
     height: 100%;
 }
 
 #meditation-section .right-column {
-    float: right;
-    width: 40%;
+    float: left;
+    width: 35%;
     padding-top: 7%;
 
 }
 
 #meditation-section .right-column h2 {
-    color: #04c1c1;
+    color: #ffa928;
     font-size: 250%;
     letter-spacing: 2px;
 }
-}
 
 #meditation-section .right-column #cover p {
-    color: #058e8e;
+    color: #e08c0e;
     font-size: 150%;
     padding-top: 20px;
     letter-spacing: 1px;
