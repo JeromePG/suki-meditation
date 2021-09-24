@@ -225,30 +225,24 @@ h1, h2, h3 {
 }
 
 #meditation-header h2 {
-    color: #e4b722;
+    color: #eaa811;
     font-size: 300%;
     letter-spacing: 2px;
 }
 
-#meditation-section h3 {
-    color: #e4c722;
-    font-size: 150%;
-    letter-spacing: 2px;
-}
-
-#meditation-section .right-column #cover p {
+#meditation-section .about-meditation p {
     font-size: 130%;
     padding-top: 20px;
     letter-spacing: 1px;
 }
 
-#about-meditation {
+/* #about-meditation {
     border-top: 1px solid #fff;
     border-bottom: 1px solid #fff;
     padding: 10px 30px 20px;
     float: left;
     width: 70%;
-}
+} */
 
 #about-meditation hr {
     border-top: 1px solid #e4c722;
@@ -259,6 +253,11 @@ h1, h2, h3 {
 #yoga-section {
     height: 100%;
     overflow: hidden;
+    color: #e4c722;
+}
+
+#yoga-section p {
+    color: #fff;
 }
 
 #yoga-image-bg {
@@ -276,20 +275,33 @@ h1, h2, h3 {
 }
 
 #yoga-section .tint {
-    background-color: rgb(101 143 173 / 70%);
+    background-color: rgb(53 56 65 / 80%);
     height: 100%;
     padding: 20px;
 }
 
 #yoga-header h2 {
-    color: #09365f;
     font-size: 350%;
     letter-spacing: 2px;
+}
+
+.about-yoga {
+    text-align: center;
+    width:70%;
+    padding: 20px 0;
+    margin: 0 auto;
+}
+
+.about-yoga p {
+    font-size: 130%;
+    padding-top: 20px;
+    letter-spacing: 1px;
 }
 
 /* Times */
 
 #times-container {
+    background-color: rgb(53, 56, 65, .3);
     text-align: center;
     padding: 20px 0;
     margin: 0 auto;
@@ -298,8 +310,15 @@ h1, h2, h3 {
 }
 
 #times-container h2 {
+    font-weight: 100;
     font-size: 220%;
     margin: 10px 0;
+}
+
+#meditation-section h3 {
+    font-weight: 100;
+    font-size: 150%;
+    letter-spacing: 2px;
 }
 
 #times-container div {
@@ -321,6 +340,14 @@ h1, h2, h3 {
     border-bottom: none;
     margin: 10px auto;
     width: 70%;
+}
+
+#meditation-section #times-container h2, #meditation-section #times-container h3 {
+    color: #fff;
+}
+
+ #meditation-section #times-container p {
+    color: rgb(105 103 93);
 }
 
 .row {
