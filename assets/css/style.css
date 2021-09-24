@@ -191,6 +191,12 @@ h1, h2, h3 {
     height: 100%;
 }
 
+#meditation-section .right-column {
+    float: left;
+    width: 35%;
+    padding-top: 10%;
+}
+
 .circle-container {
     width: 550px;
     height: 550px;
@@ -205,11 +211,6 @@ h1, h2, h3 {
     height: 100%;
 }
 
-#meditation-section .right-column {
-    float: left;
-    width: 35%;
-    padding-top: 10%;
-}
 
 #meditation-header {
     width: 100%;
@@ -231,7 +232,7 @@ h1, h2, h3 {
 }
 
 #meditation-section .about-meditation p {
-    font-size: 130%;
+    font-size: 140%;
     padding-top: 20px;
     letter-spacing: 1px;
 }
@@ -286,16 +287,34 @@ h1, h2, h3 {
 }
 
 .about-yoga {
-    text-align: center;
-    width:70%;
-    padding: 20px 0;
+    padding: 40px 0;
     margin: 0 auto;
+    height: 310px;
 }
 
 .about-yoga p {
-    font-size: 130%;
+    font-size: 140%;
     padding-top: 20px;
     letter-spacing: 1px;
+}
+
+#yoga-section .left-column {
+    float: left;
+    width: 50%;
+    height: 100%;
+    padding-right: 20px;
+    margin-top: 2%;
+}
+
+#yoga-section .right-column {
+    float: left;
+    width: 35%;
+}
+
+#yoga-section .left-column .text {
+    width: 60%;
+    float: right;
+    text-align: right;
 }
 
 /* Times */
