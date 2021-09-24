@@ -175,8 +175,13 @@ h1, h2, h3 {
 
 #meditation-section {
     background-color: #f9ffe2;
-    height: 800px;
+    height: 100%;
     position: relative;
+    padding: 40px 0;
+}
+
+#meditation-section p {
+    color: #756c57;
 }
 
 #meditation-section .left-column {
@@ -204,14 +209,12 @@ h1, h2, h3 {
     float: left;
     width: 35%;
     padding-top: 10%;
-
 }
 
 #meditation-header {
     width: 100%;
     overflow: hidden;
     margin: 0 auto;
-    padding-top: 20px;
     text-align: center;
 }
 
@@ -221,14 +224,19 @@ h1, h2, h3 {
     letter-spacing: 2px;
 }
 
+#meditation-section h2 {
+    color: #e4b722;
+    font-size: 300%;
+    letter-spacing: 2px;
+}
+
 #meditation-section h3 {
     color: #e4c722;
-    font-size: 230%;
+    font-size: 150%;
     letter-spacing: 2px;
 }
 
 #meditation-section .right-column #cover p {
-    color: #756c57;
     font-size: 130%;
     padding-top: 20px;
     letter-spacing: 1px;
@@ -248,24 +256,38 @@ h1, h2, h3 {
 
 #times-container {
     text-align: center;
-    height: 400px;
+    padding: 20px 0;
     margin: 0 auto;
     width:70%;
+    overflow: hidden;
 }
 
 #times-container h2 {
-    font-size: 250%;
-    margin: 5px 0;
+    font-size: 220%;
+    margin: 10px 0;
 }
 
 #times-container div {
     display: inline-block;
     margin-right: 20px;
-    width: 20%;
+    width: 30%;
+    float: left;
 
 }
 
 #times-container .day {
     font-size: 120%;
     text-transform: uppercase;
+    font-weight: 700;
+}
+
+#times-container hr {
+    border-top: 1px solid #000;
+    border-bottom: none;
+    margin: 10px auto;
+    width: 70%;
+}
+
+.row {
+    display: block;
 }
