@@ -120,8 +120,9 @@ h1, h2, h3 {
 #options-cover {
     background-color: rgba(53, 53, 53, 0.3);
     padding: 10px 30px 20px;
+    height: 44%;
     width: 44%;
-    margin: 80px auto;
+    margin: 0 auto;
     text-align: center;
 }
 
@@ -151,6 +152,7 @@ h1, h2, h3 {
     color: #fff;
     font-size: 120%;
     background-color: rgb(255, 255, 255, .3);
+    box-shadow: 3px 4px 7px #00000030;
     margin-right: 30px;
     border-radius: 100%;
     text-decoration: none;
@@ -163,6 +165,7 @@ h1, h2, h3 {
 
 #options-buttons a.button:hover {
     background-color: rgb(194, 152, 13, .4);
+    box-shadow: none;
     border-radius: 50px;
 }
 
@@ -184,8 +187,8 @@ h1, h2, h3 {
 }
 
 .circle-container {
-    width: 600px;
-    height: 600px;
+    width: 550px;
+    height: 550px;
     border-radius: 50%;
     float: right;
 }
@@ -212,20 +215,20 @@ h1, h2, h3 {
     text-align: center;
 }
 
-#meditation-section h2 {
-    color: rgb(204, 175, 12, .6);
+.section-header {
+    color: #e4c722;
     font-size: 600%;
     letter-spacing: 2px;
 }
 
 #meditation-section h3 {
-    color: #ffa928;
+    color: #e4c722;
     font-size: 230%;
     letter-spacing: 2px;
 }
 
 #meditation-section .right-column #cover p {
-    color: #e08c0e;
+    color: #756c57;
     font-size: 130%;
     padding-top: 20px;
     letter-spacing: 1px;
@@ -243,3 +246,26 @@ h1, h2, h3 {
     border-top: 1px solid #e4c722;
 }
 
+#times-container {
+    text-align: center;
+    height: 400px;
+    margin: 0 auto;
+    width:70%;
+}
+
+#times-container h2 {
+    font-size: 250%;
+    margin: 5px 0;
+}
+
+#times-container div {
+    display: inline-block;
+    margin-right: 20px;
+    width: 20%;
+
+}
+
+#times-container .day {
+    font-size: 120%;
+    text-transform: uppercase;
+}
