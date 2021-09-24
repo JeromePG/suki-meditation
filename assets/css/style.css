@@ -224,7 +224,7 @@ h1, h2, h3 {
     letter-spacing: 2px;
 }
 
-#meditation-section h2 {
+#meditation-header h2 {
     color: #e4b722;
     font-size: 300%;
     letter-spacing: 2px;
@@ -253,6 +253,41 @@ h1, h2, h3 {
 #about-meditation hr {
     border-top: 1px solid #e4c722;
 }
+
+/* Yoga section */
+
+#yoga-section {
+    height: 100%;
+    overflow: hidden;
+}
+
+#yoga-image-bg {
+    background: url(../images/yoga-class.jpg) no-repeat center center;
+    background-size: 100%;
+    overflow: hidden;
+    height: 100%;
+}
+
+#yoga-header {
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#yoga-section .tint {
+    background-color: rgb(101 143 173 / 70%);
+    height: 100%;
+    padding: 20px;
+}
+
+#yoga-header h2 {
+    color: #09365f;
+    font-size: 350%;
+    letter-spacing: 2px;
+}
+
+/* Times */
 
 #times-container {
     text-align: center;
