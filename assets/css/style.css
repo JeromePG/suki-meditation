@@ -400,6 +400,10 @@ h1, h2, h3 {
         background-size: auto;
     }
 
+    #yoga-image-bg {
+        background-size: auto;
+    }
+
 }
 
 @media screen and (max-width:1200px) {
@@ -409,18 +413,60 @@ h1, h2, h3 {
     }
 
     #meditation-section {
-        height: 1200px;
         margin: 0 auto;
     }
 
     #yoga-section .left-column .text {
-        width: 90%;
+        width: 100%;
     }
 
 }
 
 @media screen and (max-width:1170px) {
+
+    #yoga-section {
+        text-align: center;
+    }
+
+    .about-yoga {
+        height:auto;
+    }
+
     #yoga-section .left-column, #yoga-section .right-column {
         width: 100%;
+        padding-bottom: 20px;
+    }
+
+    #yoga-section .left-column .text {
         text-align: center;
+    }
+}
+
+    @media screen and (max-width:900px) {
+        #times-container div {
+            width: 100%;
+        }
+
+        #meditation-section .right-column {
+            width: 90%;
+            padding: 20px;
+            margin: 0 auto;
+}
+        }
+
+        #meditation-section .row {
+            width: 100%;
+            text-align: center;
+            float: none;
+        }
+
+        #meditation-section .left-column {
+            padding: 20px 0;
+            width: 100%;
+        }
+
+        .circle-container {
+            margin: 0 auto;
+            float: none;
+        }
     }
