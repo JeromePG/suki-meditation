@@ -288,7 +288,7 @@ h1, h2, h3 {
     padding: 20px;
 }
 
-#yoga-header h2 {
+#yoga-header h2, #qigong-header h2 {
     font-size: 350%;
     letter-spacing: 2px;
 }
@@ -336,11 +336,28 @@ h1, h2, h3 {
     height: 100%;
 }
 
+#qigong-section .text h3 {
+    font-size: 200%;
+}
+
+#qigong-section h2, #qigong-section h3  {
+    color: #fff;
+    font-weight: 100;
+}
+
+#qigong-section p {
+    color: #b2eaff;
+}
+
 #qigong-header {
     width: 100%;
     overflow: hidden;
     margin: 0 auto;
     text-align: center;
+}
+
+.about-qigong {
+    padding-top:20px;
 }
 
 .about-qigong p {
@@ -354,16 +371,16 @@ h1, h2, h3 {
     width: 50%;
     height: 100%;
     padding-right: 20px;
-    margin-top: 2%;
 }
 
 #qigong-section .right-column {
     float: left;
     width: 35%;
+    padding-bottom: 20px;
 }
 
 #qigong-section .left-column .text {
-    width: 60%;
+    width: 70%;
     float: right;
     text-align: right;
 }
@@ -384,8 +401,6 @@ h1, h2, h3 {
     font-size: 220%;
     margin: 10px 0;
 }
-
-
 
 #times-container div {
     display: inline-block;
@@ -408,11 +423,6 @@ h1, h2, h3 {
     width: 70%;
 }
 
-#meditation-section #times-container h3 {
-    font-weight: 100;
-    font-size: 150%;
-    letter-spacing: 2px;
-}
 
 #meditation-section #times-container h2, #meditation-section #times-container h3 {
     color: #fff;
@@ -422,7 +432,7 @@ h1, h2, h3 {
     color: rgb(105 103 93);
 }
 
-#yoga-section #times-container h3 {
+#meditation-section #times-container h3, #yoga-section #times-container h3, #qigong-section #times-container h3 {
     font-weight: 100;
     font-size: 150%;
     letter-spacing: 2px;
