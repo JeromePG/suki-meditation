@@ -71,7 +71,7 @@ h1, h2, h3 {
 /* hero section */
 
 #hero-section {
-    height:800px;
+    height:100%;
     width: 100%;
 }
 
@@ -120,7 +120,7 @@ h1, h2, h3 {
 #options-cover {
     background-color: rgba(53, 53, 53, 0.3);
     padding: 10px 30px 20px;
-    height: 44%;
+    height: auto;
     width: 44%;
     margin: 0 auto;
     text-align: center;
@@ -154,6 +154,7 @@ h1, h2, h3 {
     background-color: rgb(255, 255, 255, .3);
     box-shadow: 3px 4px 7px #00000030;
     margin-right: 30px;
+    margin-bottom: 20px;
     border-radius: 100%;
     text-decoration: none;
     line-height: 75px;
@@ -390,3 +391,36 @@ h1, h2, h3 {
 .row {
     display: block;
 }
+
+/* media queries */
+
+@media screen and (max-width:1500px) {
+    
+    #hero-image-bg {
+        background-size: auto;
+    }
+
+}
+
+@media screen and (max-width:1200px) {
+
+    #hero-section {
+        height: 1200px;
+    }
+
+    #meditation-section {
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #yoga-section .left-column .text {
+        width: 90%;
+    }
+
+}
+
+@media screen and (max-width:1170px) {
+    #yoga-section .left-column, #yoga-section .right-column {
+        width: 100%;
+        text-align: center;
+    }
