@@ -80,7 +80,7 @@ h1, h2, h3 {
 }
 
 #hero-image-bg {
-    background: url(/assets/images/yoga-outside.jpg) no-repeat center center;
+    background: url(/assets/images/meditate-outside.jpg) no-repeat center center;
     background-size: 100%;
     height: 100%;
     overflow: hidden;
@@ -210,7 +210,7 @@ h1, h2, h3 {
 }
 
 .meditation-image {
-    background: url(/assets/images/wellbeing-woman-sitting-in-sunny-field.jpg) no-repeat center center;
+    background: url(/assets/images/woman-in-field.jpg) no-repeat center center;
     background-color: rgba(255, 174, 0, 0.5);
     border-radius: 50%;
     height: 100%;
