@@ -450,11 +450,9 @@ h1, h2, h3 {
 
 @media screen and (max-width:1500px) {
     
-    #hero-image-bg {
-        background-size: auto;
-    }
-
-    #yoga-image-bg {
+    #hero-image-bg, 
+    #yoga-image-bg, 
+    #qigong-image-bg {
         background-size: auto;
     }
 
@@ -470,7 +468,8 @@ h1, h2, h3 {
         margin: 0 auto;
     }
 
-    #yoga-section .left-column .text {
+    #yoga-section .left-column .text,
+    #qigong-section .left-column .text {
         width: 100%;
     }
 
@@ -482,16 +481,22 @@ h1, h2, h3 {
         text-align: center;
     }
 
-    .about-yoga {
+    .about-yoga, 
+    .about-qigong {
         height:auto;
     }
 
-    #yoga-section .left-column, #yoga-section .right-column {
+    #yoga-section .left-column, 
+    #yoga-section .right-column, 
+    #qigong-section .left-column, 
+    #qigong-section .right-column {
         width: 100%;
         padding-bottom: 20px;
+        text-align: center;
     }
 
-    #yoga-section .left-column .text {
+    #yoga-section .left-column .text, 
+    #qigong-section .left-column .text {
         text-align: center;
     }
 }
@@ -521,5 +526,12 @@ h1, h2, h3 {
         .circle-container {
             margin: 0 auto;
             float: none;
+        }
+    }
+
+    @media screen and (max-width:612px) {
+        .circle-container {
+            width: 350px;
+            height: 350px;
         }
     }
