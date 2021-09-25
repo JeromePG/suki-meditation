@@ -18,6 +18,10 @@ h1, h2, h3 {
     font-family: 'Lora', serif;
 }
 
+.row {
+    display: block;
+}
+
 #logo {
     color: #e4c722;
     font-family: 'Lora', serif;
@@ -324,15 +328,25 @@ h1, h2, h3 {
     text-align: right;
 }
 
+#yoga-section iframe {
+    opacity: 40%;
+    transition: .4s;
+}
+
+#yoga-section iframe:hover {
+    opacity: 1;
+}
+
 /* Qi Gong section */
 
 #qigong-section .tint {
-    background-color: rgba(38, 86, 131, 0.7);
+    background-color: rgba(38, 86, 131, 0.8);
 }
 
 #qigong-image-bg {
     background: url(../images/qigong-balance.jpg) no-repeat center center;
     background-size: 100%;
+    background-position-y: -193px;
     height: 100%;
 }
 
@@ -373,10 +387,19 @@ h1, h2, h3 {
     padding-right: 20px;
 }
 
-#qigong-section .right-column {
+#qigong-section .right-column iframe {
     float: left;
     width: 35%;
     padding-bottom: 20px;
+}
+
+#qigong-section iframe {
+    opacity: 40%;
+    transition: .4s;
+}
+
+#qigong-section iframe:hover {
+    opacity: 1;
 }
 
 #qigong-section .left-column .text {
@@ -403,7 +426,6 @@ h1, h2, h3 {
 }
 
 #times-container div {
-    display: inline-block;
     margin-right: 20px;
     width: 30%;
     float: left;
@@ -442,9 +464,41 @@ h1, h2, h3 {
     color: #e4c722;
 }
 
-.row {
-    display: block;
+/* footer */
+footer {
+    height: 100px;
+    background-color: #353841;
 }
+
+.copyright {
+    font-size: 110%;
+    color: #fff;
+    float: left;
+    margin-left: 20px;
+    line-height: 102px;
+}
+
+.socials {
+    float: right;
+
+}
+
+.socials ul{
+    float:left;
+}
+
+.socials  li {
+    display: inline;
+    float: left;
+    margin-right:20px;
+    line-height: 102px;
+}
+
+.socials i {
+    color: #e4c722;
+    font-size: 140%;
+}
+
 
 /* media queries */
 
