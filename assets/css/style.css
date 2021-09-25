@@ -324,6 +324,50 @@ h1, h2, h3 {
     text-align: right;
 }
 
+/* Qi Gong section */
+
+#qigong-section .tint {
+    background-color: rgba(38, 86, 131, 0.7);
+}
+
+#qigong-image-bg {
+    background: url(../images/qigong-balance.jpg) no-repeat center center;
+    background-size: 100%;
+    height: 100%;
+}
+
+#qigong-header {
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-qigong p {
+    font-size: 140%;
+    padding-top: 20px;
+    letter-spacing: 1px;
+}
+
+#qigong-section .left-column {
+    float: left;
+    width: 50%;
+    height: 100%;
+    padding-right: 20px;
+    margin-top: 2%;
+}
+
+#qigong-section .right-column {
+    float: left;
+    width: 35%;
+}
+
+#qigong-section .left-column .text {
+    width: 60%;
+    float: right;
+    text-align: right;
+}
+
 /* Times */
 
 #times-container {
@@ -451,7 +495,6 @@ h1, h2, h3 {
             width: 90%;
             padding: 20px;
             margin: 0 auto;
-}
         }
 
         #meditation-section .row {
