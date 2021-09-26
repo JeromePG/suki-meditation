@@ -22,13 +22,17 @@ h1, h2, h3 {
     display: block;
 }
 
+#logo-container {
+    line-height: 75px;
+    margin-left: 30px;
+    float: left;
+}
+
 #logo {
     color: #e4c722;
     font-family: 'Lora', serif;
     font-size: 180%;
-    line-height: 75px;
     letter-spacing: 3px;
-    margin-left: 30px;
 }
 
 /* menu */
@@ -508,7 +512,7 @@ footer {
 /* Sign up page */
 
 #signup-outer {
-    height: 800px;
+    height: 100%;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -520,7 +524,7 @@ footer {
 
 #signup-image-bg {
     background: url(../images/yoga-class2.jpg) no-repeat center center;
-    height: 800px;
+    height: 900px;
     width: 100%;
     /* zoom animation */
     animation-name: signup-zoom;
@@ -658,6 +662,14 @@ footer {
         width: 100%;
     }
 
+    .signup-intro {
+        width: 81%;
+    }
+
+    .signup-form {
+        width: 42%
+    }
+
 }
 
 @media screen and (max-width:1170px) {
@@ -712,6 +724,14 @@ footer {
             margin: 0 auto;
             float: none;
         }
+
+        .signup-intro {
+            width: 80%;
+        }
+    
+        .signup-form {
+            width: 80%
+        }
     }
 
     @media screen and (max-width:612px) {
@@ -719,4 +739,17 @@ footer {
             width: 350px;
             height: 350px;
         }
+
+
+
+}
+
+    @media screen and (max-width:794px) {
+        #logo-container {
+            width: 100%;
+            margin: 0 auto;
+            display: block;
+            text-align: center;
+        }    
+
     }
