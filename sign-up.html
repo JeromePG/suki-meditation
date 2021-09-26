@@ -28,40 +28,44 @@
         </div>
     </header>
     <section id="signup-outer">
-        <div id="signup-image-bg">
-            <div id="cover">
-                <h2>Sign Up</h2>
-                <hr>
-                <p>
-                    Are you ready to take the next step and join us? Sign up and select from given options of your choice and we will get back to you within 24 hours with more information about the classes you have chosen.
-                </p>
+        <div id="signup-image-bg"><div class="tint"></div></div>
+            <div class="signup-content">
+                <div id="signup-intro">
+                    <h2>Sign Up</h2>
+                    <hr>
+                    <p>
+                        Are you ready to take the next step and become a member? Sign up and select from given options of your choice and we will get back to you within 24 hours with more information about the classes you have chosen.
+                    </p>
+                </div>
+                <form class="signup-form" method="POST" action="">
+                    <h2>sign up and choose the right class for you</h2>
+                    <label for="fname">First Name</label>
+                    <input class="text-field" id="fname" name="first_name" type="text" required>
+
+                    <label for="lname">Last Name</label>
+                    <input class="text-field" id="lname" name="last_name" type="text" required>
+
+                    <label for="email">Email Address</label>
+                    <input class="text-field" id="email" name="email_address" type="email" required>
+                    <div class="checkbox-col">
+                        <label for="meditation">Meditation</label>
+                        <input class="checkbox" id="meditation" name="class_choice" type="checkbox">
+                    </div>
+                    <div class="checkbox-col">
+                        <label for="yoga">Yoga</label>
+                        <input class="checkbox" id="yoga" name="class_choice" type="checkbox">
+                    </div>
+                    <div class="checkbox-col">
+                        <label for="qigong">Qi Gong</label>
+                        <input class="checkbox" id="qigong" name="class_choice" type="checkbox">
+                    </div>
+                    <div class="checkbox-col">
+                        <label for="meditation">Meditation</label>
+                        <input class="checkbox" id="meditation" name="class_choice" type="checkbox">
+                    </div>
+                    <input class="submit-button" type="submit">
+                </form>
             </div>
-            <form class="signup-form" method="POST" action="">
-                <h2>sign up and choose the right class for you</h2>
-                <label for="fname">First Name</label>
-                <input class="text-field" id="fname" name="first_name" type="text" required>
-
-                <label for="lname">Last Name</label>
-                <input class="text-field" id="lname" name="last_name" type="text" required>
-
-                <label for="email">Email Address</label>
-                <input class="text-field" id="email" name="email_address" type="email" required>
-
-                <label for="meditation">Meditation</label>
-                <input class="check-box" id="meditation" name="class_choice" type="checkbox">
-
-                <label for="yoga">Yoga</label>
-                <input class="check-box" id="yoga" name="class_choice" type="checkbox">
-
-                <label for="qigong">Qi Gong</label>
-                <input class="check-box" id="qigong" name="class_choice" type="checkbox">
-
-                <label for="meditation">Meditation</label>
-                <input class="check-box" id="meditation" name="class_choice" type="checkbox">
-
-                <input class="submit-button" type="submit">
-            </form>
-        </div>
     </section>
    
     <footer>

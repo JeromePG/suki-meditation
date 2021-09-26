@@ -514,6 +514,10 @@ footer {
     position: relative;
 }
 
+#signup-outer .tint {
+    background-color: rgb(185, 202, 214, .7);
+}
+
 #signup-image-bg {
     background: url(../images/yoga-class2.jpg) no-repeat center center;
     height: 800px;
@@ -532,6 +536,59 @@ footer {
         transform: scale(1.1);
     }
 }
+
+.signup-content {
+    position: absolute;
+    top: 15%;
+    left: 38%;
+}
+
+.signup-form {
+    background-color: rgb(53 56 65 / 70%);
+    width: 400px;
+    padding: 20px;
+}
+
+.signup-form h2 {
+    color: #e4c722;
+    font-weight: 100;
+    font-size: 200%;
+}
+
+.signup-form label {
+    color: #fff;
+    font-size: 130%;
+}
+
+.signup-form .text-field {
+    background-color: rgb(255, 255, 255, .6);
+    border: none;
+    border-radius: 5px;
+    color: #555;
+    margin: 5px 0 20px;
+    padding: 5px 0;
+    width: 100%;
+    transition: .5s;
+}
+
+.signup-form .text-field:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.checkbox-col {
+    display: inline-block;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.signup-form .checkbox {
+    height: 20px;
+    width: 20px;
+    display: block;
+    margin-left: 33px;
+    margin-top: 10px;
+}
+
 
 /* media queries */
 
