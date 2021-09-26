@@ -497,6 +497,12 @@ footer {
 .socials i {
     color: #e4c722;
     font-size: 140%;
+    transition: .4s;
+}
+
+.socials i:hover {
+    color: #fff;
+    font-size: 150%;
 }
 
 /* Sign up page */
