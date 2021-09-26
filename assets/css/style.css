@@ -649,8 +649,8 @@ footer {
 
 @media screen and (max-width:1200px) {
 
-    #hero-section {
-        height: 1200px;
+    #cover {
+        width: 80%;
     }
 
     #meditation-section {
@@ -699,6 +699,15 @@ footer {
 }
 
     @media screen and (max-width:900px) {
+
+        #options-cover {
+            width: 80%;
+        }
+
+        #times-container {
+            width: 80%;
+        }
+
         #times-container div {
             width: 100%;
         }
@@ -750,6 +759,17 @@ footer {
             margin: 0 auto;
             display: block;
             text-align: center;
-        }    
+        }   
+
+        #menu-outer {
+            width: 100%;
+        }
+
+        #menu {
+            float: none;
+            margin: 0 auto 10px;
+            display: table;
+            line-height: 25px;
+        }
 
     }
