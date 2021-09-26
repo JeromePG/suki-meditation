@@ -515,7 +515,7 @@ footer {
 }
 
 #signup-outer .tint {
-    background-color: rgb(185, 202, 214, .7);
+    background-color: rgb(185, 202, 214, .8);
 }
 
 #signup-image-bg {
@@ -539,20 +539,41 @@ footer {
 
 .signup-content {
     position: absolute;
-    top: 15%;
-    left: 38%;
+    width: 100%;
+    top: 5%;
+}
+
+.signup-intro {
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.signup-intro h2 {
+    font-size: 330%;
+    color: #000;
+    margin-bottom: 20px;
 }
 
 .signup-form {
-    background-color: rgb(53 56 65 / 70%);
+    background-color: rgb(53, 56, 65, .7);
     width: 400px;
     padding: 20px;
+    margin: 0 auto;
+}
+
+.signup-intro p {
+    font-size: 140%;
+    color: #353841;
+    margin-bottom: 20px;
 }
 
 .signup-form h2 {
     color: #e4c722;
     font-weight: 100;
     font-size: 200%;
+    margin-bottom: 20px;
 }
 
 .signup-form label {
