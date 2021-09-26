@@ -635,7 +635,7 @@ footer {
     
 }
 
-/* media queries */
+/**************************************************************** media queries ***********************************************************************************/
 
 @media screen and (max-width:1500px) {
     
@@ -670,6 +670,14 @@ footer {
         width: 42%
     }
 
+    #hero-section #cover {
+        width: 70%;
+    }
+
+    #options-cover {
+        width: 70%;
+    }
+
 }
 
 @media screen and (max-width:1170px) {
@@ -690,6 +698,10 @@ footer {
         width: 100%;
         padding-bottom: 20px;
         text-align: center;
+    }
+
+    #qigong-section .right-column iframe {
+        width: 100%;
     }
 
     #yoga-section .left-column .text, 
@@ -770,6 +782,10 @@ footer {
             margin: 0 auto 10px;
             display: table;
             line-height: 25px;
+        }
+
+        #menu li {
+            padding: 0 10px;
         }
 
     }
