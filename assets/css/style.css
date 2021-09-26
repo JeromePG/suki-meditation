@@ -519,9 +519,18 @@ footer {
     height: 800px;
     width: 100%;
     /* zoom animation */
-    animation-name: hero-zoom;
-    animation-duration: 5s;
+    animation-name: signup-zoom;
+    animation-duration: 4s;
     animation-fill-mode: forewards;
+}
+
+@keyframes signup-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
 }
 
 /* media queries */
