@@ -499,6 +499,24 @@ footer {
     font-size: 140%;
 }
 
+/* Sign up page */
+
+#signup-outer {
+    height: 800px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#signup-image-bg {
+    background: url(../images/yoga-class2.jpg) no-repeat center center;
+    height: 800px;
+    width: 100%;
+    /* zoom animation */
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forewards;
+}
 
 /* media queries */
 
