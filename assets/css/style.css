@@ -284,7 +284,7 @@ h1, h2, h3 {
 }
 
 #yoga-section .tint {
-    background-color: rgb(53 56 65 / 80%);
+    background-color: rgb(53, 56, 65, .9);
     height: 100%;
     padding: 20px;
 }
@@ -331,7 +331,7 @@ h1, h2, h3 {
 }
 
 #yoga-section iframe {
-    opacity: 40%;
+    opacity: 80%;
     transition: .4s;
 }
 
@@ -541,7 +541,7 @@ footer {
 #about-section p {
     color: #ffffff;
     font-size: 140%;
-    padding-bottom:15%;
+    padding-bottom:15px;
 }
 
 #about-section h2 {
