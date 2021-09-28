@@ -560,6 +560,14 @@ footer {
     text-align: center;
 }
 
+#location {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    margin: 20px auto 0;
+    padding: 10px 0;
+    width: 50%
+}
+
 #location p {
     padding-bottom: 5px
 }
@@ -837,6 +845,10 @@ footer {
 
         #menu li {
             padding: 0 10px;
+        }
+
+        #about-section #cover {
+            width: 80%
         }
 
     }
