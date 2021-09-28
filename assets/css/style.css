@@ -463,10 +463,6 @@ h1, h2, h3 {
     font-weight: 100;
 }
 
-#meditation-section .times-container h2 {
-    font-size: ;
-}
-
 #meditation-section .times-container h3, #yoga-section .times-container h3, #qigong-section .times-container h3 {
     font-weight: 100;
     font-size: 150%;
@@ -585,7 +581,7 @@ footer {
     /* zoom animation */
     animation-name: signup-zoom;
     animation-duration: 4s;
-    animation-fill-mode: forewards;
+    animation-fill-mode: forwards;
 }
 
 @keyframes signup-zoom {
