@@ -33,9 +33,6 @@ h1, h2, h3 {
     font-family: 'Lora', serif;
     font-size: 180%;
     letter-spacing: 3px;
-}
-
-#logo a {
     text-decoration: none;
 }
 
@@ -88,7 +85,7 @@ h1, h2, h3 {
 }
 
 #hero-image-bg {
-    background: url(../images/meditation-class.jpg) no-repeat center center;
+    background: url(../images/meditate-outside.jpg) no-repeat center center;
     background-size: cover;
     height: 100%;
     overflow: hidden;
@@ -532,14 +529,14 @@ footer {
 
 
 #about-image-bg {
-    background: url(../images/qigong-battersea-yoga.png) no-repeat center center;
+    background: url(../images/meditation-class.jpg) no-repeat center center;
     background-size: cover;
     height: 100%;
     overflow: hidden;
 }
 
 #about-section .tint {
-    background-color: rgb(121, 121, 121, .9);
+    background-color: rgb(72, 95, 111, .8);
 }
 
 #about-section p {
@@ -578,7 +575,7 @@ footer {
 #signup-image-bg {
     background: url(../images/yoga-class2.jpg) no-repeat center center;
     height: 900px;
-    width: 100%;
+    background-size: cover;
     /* zoom animation */
     animation-name: signup-zoom;
     animation-duration: 4s;
@@ -814,16 +811,6 @@ footer {
         }
     }
 
-    @media screen and (max-width:612px) {
-        .circle-container {
-            width: 350px;
-            height: 350px;
-        }
-
-
-
-}
-
     @media screen and (max-width:794px) {
         #logo-container {
             width: 100%;
@@ -848,3 +835,21 @@ footer {
         }
 
     }
+
+    
+    @media screen and (max-width:612px) {
+        .circle-container {
+            width: 350px;
+            height: 350px;
+        }
+
+        #signup-outer {
+            height: 960px;
+        }
+
+        #signup-image-bg {
+            height: 100%
+        }
+
+
+}
