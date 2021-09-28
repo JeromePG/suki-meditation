@@ -35,6 +35,10 @@ h1, h2, h3 {
     letter-spacing: 3px;
 }
 
+#logo a {
+    text-decoration: none;
+}
+
 /* menu */
 
 #menu {
@@ -85,7 +89,7 @@ h1, h2, h3 {
 
 #hero-image-bg {
     background: url(../images/meditation-class.jpg) no-repeat center center;
-    background-size: 100%;
+    background-size: cover;
     height: 100%;
     overflow: hidden;
 }
@@ -271,7 +275,7 @@ h1, h2, h3 {
 
 #yoga-image-bg {
     background: url(../images/yoga-class.jpg) no-repeat center center;
-    background-size: 100%;
+    background-size: cover;
     overflow: hidden;
     height: 100%;
 }
@@ -347,7 +351,7 @@ h1, h2, h3 {
 
 #qigong-image-bg {
     background: url(../images/qigong-balance.jpg) no-repeat center center;
-    background-size: 100%;
+    background-size: cover;
     background-position-y: -193px;
     height: 100%;
 }
