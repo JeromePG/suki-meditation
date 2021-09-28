@@ -235,14 +235,7 @@ h1, h2, h3 {
     letter-spacing: 2px;
 }
 
-#meditation-header h2 {
-    color: #ffcd5b;
-    letter-spacing: 2px;
-}
-
 #meditation-section h3 {
-    color: #ffcd5b;
-    font-weight: 100;
     font-size: 200%;
 }
 
@@ -289,7 +282,7 @@ h1, h2, h3 {
     padding: 20px;
 }
 
-#meditation-section h2, #yoga-header h2, #qigong-header h2 {
+#meditation-header h2, #yoga-header h2, #qigong-header h2 {
     font-size: 350%;
     letter-spacing: 2px;
 }
@@ -467,10 +460,11 @@ h1, h2, h3 {
 
 #meditation-section h2, #meditation-section h3, #meditation-section .times-container h2 {
     color: #ce3f14;
+    font-weight: 100;
 }
 
- #meditation-section .times-container p {
-    color: rgb(105, 103, 93);
+#meditation-section .times-container h2 {
+    font-size: ;
 }
 
 #meditation-section .times-container h3, #yoga-section .times-container h3, #qigong-section .times-container h3 {
@@ -704,7 +698,7 @@ footer {
     #hero-image-bg, 
     #yoga-image-bg, 
     #qigong-image-bg {
-        background-size: auto;
+        background-size: cover;
     }
 
 }
@@ -878,6 +872,14 @@ footer {
         #signup-image-bg {
             height: 100%
         }
+
+
+}
+
+@media screen and (max-width:360px) {
+    .circle-container {
+        display: none;
+    }
 
 
 }
