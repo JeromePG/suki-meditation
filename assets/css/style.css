@@ -550,6 +550,7 @@ footer {
     font-size: 210%;
     font-weight: 500;
     letter-spacing: 2px;
+    padding-bottom: 20px;
 }
 
 #about-section #cover {
@@ -557,6 +558,10 @@ footer {
     width: 60%;
     margin: 80px auto;
     text-align: center;
+}
+
+#location p {
+    padding-bottom: 5px
 }
 
 /* Sign up page */
