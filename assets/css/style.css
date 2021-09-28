@@ -98,7 +98,6 @@ h1, h2, h3 {
 }
 
 #hero-section #cover {
-    /* background-color: rgba(53, 53, 53, 0.3); */
     padding: 10px 30px 20px;
     width: 44%;
     margin: 80px auto;
@@ -179,8 +178,6 @@ h1, h2, h3 {
     border-radius: 50px;
 }
 
-
-
 /* meditation section */
 
 #meditation-section {
@@ -222,7 +219,6 @@ h1, h2, h3 {
     height: 100%;
 }
 
-
 #meditation-header {
     width: 100%;
     overflow: hidden;
@@ -244,7 +240,6 @@ h1, h2, h3 {
     padding-top: 20px;
     letter-spacing: 1px;
 }
-
 
 #about-meditation hr {
     border-top: 1px solid #e4c722;
@@ -445,13 +440,6 @@ h1, h2, h3 {
     margin-top: 10px;
 }
 
-/* .times-container hr {
-    border-top: 1px solid rgb(255, 255, 255);
-    border-bottom: none;
-    margin: 10px auto;
-    width: 30%;
-} */
-
 .times-container hr.y-divider {
     padding:0;
     margin: 0;
@@ -474,6 +462,7 @@ h1, h2, h3 {
 }
 
 /* footer */
+
 footer {
     height: 100px;
     background-color: #353841;
@@ -489,7 +478,6 @@ footer {
 
 .socials {
     float: right;
-
 }
 
 .socials ul{
@@ -515,7 +503,6 @@ footer {
 }
 
 /* about page */
-
 
 #about-image-bg {
     background: url(../images/meditation-class.jpg) no-repeat center center;
@@ -648,10 +635,6 @@ footer {
     transition: .5s;
 }
 
-.signup-form .text-field:focus-visible {
-    border: 1px solid #e4c722;
-}
-
 .signup-form .text-field:hover {
     background-color: rgb(255, 255, 255);
 }
@@ -696,7 +679,6 @@ footer {
     #qigong-image-bg {
         background-size: cover;
     }
-
 }
 
 @media screen and (max-width:1200px) {
@@ -729,7 +711,6 @@ footer {
     #options-cover {
         width: 70%;
     }
-
 }
 
 @media screen and (max-width:1170px) {
@@ -851,10 +832,8 @@ footer {
         #about-section #cover {
             width: 80%
         }
-
     }
 
-    
     @media screen and (max-width:612px) {
         .circle-container {
             width: 350px;
@@ -868,8 +847,6 @@ footer {
         #signup-image-bg {
             height: 100%
         }
-
-
 }
 
 @media screen and (max-width:360px) {
