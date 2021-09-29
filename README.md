@@ -4,3 +4,4 @@ The Suki Meditation website is built to service all walks of life to provide bal
 
 [View the live Suki Meditation page here](https://jeromepg.github.io/suki-meditation)
 
+![website on diffrent monitor devices](assets/images/website-screenshot.jpg)
