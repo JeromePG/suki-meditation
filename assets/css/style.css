@@ -854,5 +854,7 @@ footer {
         display: none;
     }
 
-
+    #signup-outer {
+        height: 1030px;
+    }
 }
