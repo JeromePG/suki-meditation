@@ -6,6 +6,21 @@ The Suki Meditation website is built to service all walks of life to provide bal
 
 ![website on diffrent monitor devices](https://user-images.githubusercontent.com/88581233/135259372-4de0eee9-4908-48cd-b322-7a267698ca15.jpg)
 
+
+## Design
+
+_Colour Scheme_
+- The two main colours used are Gold and grey. I chose these two colours to give the site a sacred zen feel to it, like a temple built by dark grey stone with precious gold ornaments in it. 
+
+_Typography_
+- For the headings, the for 'Lora' is used to set the feeling of teh website along with its complimentart font for the rest of the content 'Source Sans Pro'
+
+_Imagery_
+- Background images are used all throughout the site with a coloured tint on them to ensure that the text over them is readable.
+
+_Videos_
+-YouTube videos have been included to two of the sections to further explain and give examples of the content.
+
 ## Features
 
 The website consists of three pages, Home, About and Sign Up page. With the homepage, I have included multiple sections specific to each of the classes held at Suki Meditation. To make it easier to locate the different classes, I've added a section of buttons at the top of the homepage that locate to the specific section of the page. For example, the Yoga button will take you to teh yoga section which gives a brief explanation of the class. 
@@ -16,7 +31,7 @@ Most of the site has background images, so in order for the content to be readab
 
 I have also ensured that everything is responsive due to the screen size including the following:
 
-### Top navigation bar
+_ Top navigation bar _
 
 When on a standard width computer monitor, the brand logo appears on the left with the navigation buttons "Home, About and Sign Up" appear on the right. When condensed to a mobile screen, the Logo is stacked on top of the navigation links, both central.
 
@@ -24,7 +39,7 @@ I have also added a small feature where the page that the user is on is highligh
 ![nav-full-width](https://user-images.githubusercontent.com/88581233/135328269-c3f94b1a-c85a-43fb-b178-68ddef77ee85.PNG)
 ![nav-narrow](https://user-images.githubusercontent.com/88581233/135328319-b0dbd1b1-f2c7-4a09-9f61-0c0d4da5bf7f.PNG)
 
-### Class sections
+_Class sections_
 
 When on a standard width computer monitor the text appears besides the image or video, on a condensed screen, the text stacks on top of the image.
 
@@ -41,5 +56,8 @@ As well as this, I decided to drop the background images on a smaller screen. Th
 - on a more narrow screen, I decided that sectioning it like this wasnt necessary so I removed their backgrounds
 - as well as this, i=on a narrow screen, to make it more organised, I added hr tags in between each day so that they are easily read.
 
-![times-full-width](https://user-images.githubusercontent.com/88581233/135330599-4661cf77-1e7f-4fb3-8c65-9de6f75a8048.PNG)
-![times-narrow](https://user-images.githubusercontent.com/88581233/135330658-35c46816-a4cc-4dd3-9ded-4f5e729deb4a.PNG)
+## Testing
+
+### known issues
+
+### Overcome issues

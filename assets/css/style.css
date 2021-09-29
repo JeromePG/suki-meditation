@@ -548,6 +548,11 @@ footer {
     padding-bottom: 5px
 }
 
+.contact-us {
+    text-align: center;
+    padding-top:10px
+}
+
 /* Sign up page */
 
 #signup-outer {
