@@ -330,7 +330,7 @@ h1, h2, h3 {
 /* Qi Gong section */
 
 #qigong-section .tint {
-    background-color: rgba(38, 86, 131, 0.8);
+    background-color: #2a4b75c2;
 }
 
 #qigong-image-bg {
@@ -350,7 +350,7 @@ h1, h2, h3 {
 }
 
 #qigong-section p {
-    color: #b2eaff;
+    color: #90ebff;
 }
 
 #qigong-header {
