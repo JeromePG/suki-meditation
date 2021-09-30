@@ -18,7 +18,7 @@ The Suki Meditation website is built to service all walks of life to provide bal
 - Background images are used all throughout the site with a coloured tint on them to ensure that the text over them is readable.
 
 - ### Videos
--YouTube videos have been included to two of the sections to further explain and give examples of the content topic.
+- YouTube videos have been included to two of the sections to further explain and give examples of the content topic.
 
 ## Features
 
@@ -148,8 +148,8 @@ On screens 360 pixels and less, I noticed a white gap would appear on the right.
 
 ## Media
 
-- All images were downloaded from Getty Images
-- All videos were imported from YouTube
+- All images were downloaded from [Getty Images](https://www.gettyimages.co.uk/)
+- All videos were imported from [YouTube](https://www.youtube.com/)
 
 ## Acknowledgements
 
