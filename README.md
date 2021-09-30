@@ -180,3 +180,22 @@ on screens 360 pixels and less, I noticed a white gap would appear on the right.
   -No issues were found when passing the site through Jigsaw W3 validator
 
 <img src="assets/images/site-validator.PNG">
+
+### Further Testing
+
+- The website was tested on Google Chrome, Firefox and edge browsers
+- The website was tested on a 17 inch windows laptop, an android phone (landscape and portrait) and on an iPhone X
+- for further testing, a friend was asked to view the test and analyse its feel and functionality
+
+## Deployment
+
+1. sign in on the [GitHub site](https://github.com) and select the repository usually located on the left of the page
+2. On the top of the repository page is a menu found below the repository name, locate and select the 'Settings' button
+3. On the Settings page scoll down until you find the heading 'GitHub Pages'
+4. From there, find the Source section then click the dropdown to select 'None' then select masterbranch
+5. You will be taken back to the settings page to locate back to the 'GitHub Pages' section, below it will be a yellow box which has a link that reads 'Check it out here!' which will be the link to the website
+
+## Making a local Clone
+
+1. sign in on the [GitHub site](https://github.com) and Select the repository
+2. below the navigation bar where the Settings is will be a section of buttons, select the 'Code' button
